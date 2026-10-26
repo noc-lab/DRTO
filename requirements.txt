@@ -1,0 +1,18 @@
+torch==2.8.0
+transformers==4.57.6
+deepspeed==0.18.5
+peft==0.17.1
+accelerate>=1.11.0
+datasets>=4.0.0
+pandas
+ray[default]>=2.48.0
+bitsandbytes
+einops
+jsonlines
+loralib
+optimum
+tqdm
+wandb
+tensorboard
+safetensors
+# flash-attn==2.6.3   # install separately: pip install flash-attn==2.6.3 --no-build-isolation
